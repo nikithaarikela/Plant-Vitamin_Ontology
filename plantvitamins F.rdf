@@ -1,0 +1,1656 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035">
+        <rdfs:label xml:lang="en">obtained from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088">
+        <rdfs:label xml:lang="en">has health benefits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093">
+        <rdfs:label xml:lang="en">defeciency causes health issues</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000097 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000097">
+        <rdfs:label xml:lang="en">has complexes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002563"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin A is a fat-soluble vitamin that is naturally present in many foods.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vitamin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">green tea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000008">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">broccoli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">spinach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">cabbage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">lettuce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">vegetable oils</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">nuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">nuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000016 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">seeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000017 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">beans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000019 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000019">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">peas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">banana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000021 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000021">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">cabbage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000022">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">avacado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">oranges</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000024 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000024">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">almonds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">peanuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000026 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000026">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">wild rice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">cereals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">citrus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000029 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000029">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">potatos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000031 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000031">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">tomato juice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000032 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000032">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">mushrooms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036">
+        <rdfs:comment>Health benefit, the phenomenon that a food, substance or activity is improving health</rdfs:comment>
+        <rdfs:label xml:lang="en">Health Benefits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000037 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000037">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>a healthy diet is key to a strong immune system. This means making sure to eat plenty of vegetables, fruits, legumes, whole grains, lean proteins and healthy fats.</rdfs:comment>
+        <rdfs:label xml:lang="en">Increased immunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000038 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000038">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Cell growth refers to an increase in the total mass of a cell, including both cytoplasmic, nuclear and organelle volume.</rdfs:comment>
+        <rdfs:label xml:lang="en">cellular growth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000039 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000039">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Retinogenesis is a precisely controlled developmental process during which different types of neurons and glial cells are generated under the influence of intrinsic and extrinsic factors.</rdfs:comment>
+        <rdfs:label xml:lang="en">retinogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000040 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Transcriptional regulation is a critical biological process that allows the cell or an organism to respond to a variety of intra- and extra-cellular signals, to define cell identity during development, to maintain it throughout its lifetime, and to coordinate cellular activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transcriptional regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000041 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000041">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Bone metabolism comprises the processes of bone formation and bone resorption, the key actions by which skeletal mass, structure and quality are accrued and maintained throughout life</rdfs:comment>
+        <rdfs:label xml:lang="en">bone metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>A state of balance among all the body systems needed for the body to survive and function correctly.</rdfs:comment>
+        <rdfs:label xml:lang="en">Homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Wound healing, as a normal biological process in the human body, is achieved through four precisely and highly programmed phases: hemostasis, inflammation, proliferation, and remodeling. For a wound to heal successfully, all four phases must occur in the proper sequence and time frame.</rdfs:comment>
+        <rdfs:label xml:lang="en">wound healing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000044 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000044">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>substance that reduces inflammation (redness, swelling, and pain) in the body.</rdfs:comment>
+        <rdfs:label xml:lang="en">Anti-Inflammatory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000045 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Gene regulation is the process used to control the timing, location and amount in which genes are expressed.</rdfs:comment>
+        <rdfs:label xml:lang="en">gene regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000046 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000046">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>redox homeostasis is an essential and dynamic process that ensures the balance between reducing and oxidizing reactions within cells and regulates a plethora of biological responses and events.</rdfs:comment>
+        <rdfs:label xml:lang="en">redox haemostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000048 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000048">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>the extent to which iron is absorbed from the diet and used for normal body functions</rdfs:comment>
+        <rdfs:label xml:lang="en">increase iron bioavailability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000049 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000049">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Scurvy is a disease caused by a serious vitamin C deficiency. Not eating enough fruits and vegetables is the main cause of the disease. Left untreated, scurvy can lead to bleeding gums, loosened teeth and bleeding under your skin. Treatment for the condition includes getting plenty of vitamin C in the diet.</rdfs:comment>
+        <rdfs:label xml:lang="en">prevention of scurvy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000050 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>the production of red blood cells.</rdfs:comment>
+        <rdfs:label xml:lang="en">Erythropoiesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000051 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>gut health is defined by the absence of gastrointestinal symptoms (eg, abdominal pain, diarrhoea) and disease (eg, inflammatory bowel disease, colon cancer), as well as an absence of other unfavourable local conditions</rdfs:comment>
+        <rdfs:label xml:lang="en">gut health</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000052 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000052">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Healthy skin is smooth, with no breaks in the surface. It is warm (not hot or red) and neither dry and flaky nor moist and wrinkled. Healthy skin is a mirror of a healthy body.</rdfs:comment>
+        <rdfs:label xml:lang="en">healthy skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000053 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>The nervous system is made up of the brain, spinal cord and nerves.</rdfs:comment>
+        <rdfs:label xml:lang="en">healthy nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000056 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000056">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>DNA transcription produces a single-stranded RNA molecule that is complementary to one strand of DNA. Transcription, however, differs from DNA replication in several crucial ways. Unlike a newly formed DNA strand, the RNA strand does not remain hydrogen-bonded to the DNA template strand.</rdfs:comment>
+        <rdfs:label xml:lang="en">DNA and RNA production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000057 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000057">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Fatty acid metabolism consists of various metabolic processes involving or closely related to fatty acids</rdfs:comment>
+        <rdfs:label xml:lang="en">fatty acid metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000058 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000058">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Amino acid synthesis is the set of biochemical processes (metabolic pathways) by which the amino acids are produced.</rdfs:comment>
+        <rdfs:label xml:lang="en">Amino acid biosynthesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059">
+        <rdfs:comment>The term “health issue” means a disease or medical ailment or an environmental condition that poses the risk of disease or medical ailment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Health issues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000060 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000060">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>A corneal ulcer is an open sore in the outer layer of the cornea. It is often caused by infection. At first, a corneal ulcer may seem like conjunctivitis, or pink eye.</rdfs:comment>
+        <rdfs:label xml:lang="en">corneal ulceration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>the state or condition of being unable to see because of injury, disease, or a congenital condition.</rdfs:comment>
+        <rdfs:label xml:lang="en">blindness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>an injury in which the skin is not broken but is discolored from the breaking of small blood vessels that lie underneath the skin</rdfs:comment>
+        <rdfs:label xml:lang="en">bruising</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000063 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000063">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>an escape of blood from a ruptured blood vessel, especially when profuse.</rdfs:comment>
+        <rdfs:label xml:lang="en">hemorrhages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000064 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000064">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>A break of any size is called a fracture. If the broken bone punctures the skin, it is called an open fracture (compound fracture). A stress fracture is a break in the bone that develops because of repeated or prolonged forces against the bone. The repeated stress weakens the bone until it finally breaks.</rdfs:comment>
+        <rdfs:label xml:lang="en">bone fracture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000065 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000065">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a disease of children caused by vitamin D deficiency, characterized by imperfect calcification, softening, and distortion of the bones typically resulting in bow legs.</rdfs:comment>
+        <rdfs:label xml:lang="en">rickets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000066 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000066">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>A condition in adults in which bones become soft and deformed because they don&apos;t have enough calcium and phosphorus.</rdfs:comment>
+        <rdfs:label xml:lang="en">osteomalacia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000067 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000067">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>A normal part of the body&apos;s response to injury or infection. Inflammation occurs when the body releases chemicals that trigger an immune response to fight off infection or heal damaged tissue. Once the injury or infection is healed, the inflammatory process ends.</rdfs:comment>
+        <rdfs:label xml:lang="en">Inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000068 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000068">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a medical condition in which the bones become brittle and fragile from loss of tissue, typically as a result of hormonal changes, or deficiency of calcium or vitamin D.</rdfs:comment>
+        <rdfs:label xml:lang="en">osteoporosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000069 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000069">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Myopathy is derived from the Greek words “myo” for muscle, and “pathy” for suffering which means muscle disease. The most common signs and symptoms of myopathies include weakness, stiffness, cramps, and spasms.</rdfs:comment>
+        <rdfs:label xml:lang="en">myopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000070 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000070">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Lung disease is any problem in the lungs that prevents the lungs from working properly.</rdfs:comment>
+        <rdfs:label xml:lang="en">lung diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000071 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Having a weakened immune system. People who are immunocompromised have a reduced ability to fight infections and other diseases.</rdfs:comment>
+        <rdfs:label xml:lang="en">reduced immunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000072 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000072">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Pellagra is a nutritional disorder caused by niacin (vitamin B3) deficiency, which leads to systemic disease with clinical manifestations from the skin, gastrointestinal tract and the nervous system.</rdfs:comment>
+        <rdfs:label xml:lang="en">pellagra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000073 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000073">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Megaloblastic anemia is a form of anemia characterized by very large red blood cells and a decrease in the number of those cells. Anemias are blood disorders that occur when the body has fewer red blood cells than normal.</rdfs:comment>
+        <rdfs:label xml:lang="en">megaloblastic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000074 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000074">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a skin disease marked by red, itchy, scaly patches.</rdfs:comment>
+        <rdfs:label xml:lang="en">psoriasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>the partial or complete absence of hair from areas of the body where it normally grows</rdfs:comment>
+        <rdfs:label xml:lang="en">alopecia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000076 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000076">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Insomnia is a common sleep disorder.</rdfs:comment>
+        <rdfs:label xml:lang="en">Insomnia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000077 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000077">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>extreme tiredness resulting from mental or physical exertion or illness.</rdfs:comment>
+        <rdfs:label xml:lang="en">fatigue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000078 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000078">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a condition characterized by progressive or persistent loss of intellectual functioning, especially with impairment of memory and abstract thinking, and often with personality change, resulting from organic disease of the brain.</rdfs:comment>
+        <rdfs:label xml:lang="en">dimentia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>A mental disorder is characterized by a clinically significant disturbance in an individual&apos;s cognition, emotional regulation, or behaviour. It is usually associated with distress or impairment in important areas of functioning.</rdfs:comment>
+        <rdfs:label xml:lang="en">mental disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000080 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000080">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a condition marked by a deficiency of red blood cells or of hemoglobin in the blood, resulting in pallor and weariness.</rdfs:comment>
+        <rdfs:label xml:lang="en">anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000081 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000081">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Neurodevelopmental disorders (NDDs) are multifaceted conditions characterized by impairments in cognition, communication, behavior and/or motor skills resulting from abnormal brain development.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurological and developmental disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000082 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000082">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Beriberi is a deficiency of thiamin, more commonly known as vitamin B1. Your body needs thiamin to break down and digest the foods you eat, to keep your metabolism going, and help your muscles and nervous system do their jobs effectively. Beriberi can affect the cardiovascular system or central nervous system.</rdfs:comment>
+        <rdfs:label xml:lang="en">beri-beri diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000083 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000083">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a deficiency in the production of red blood cells through a lack of vitamin B12.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pernicious anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000084 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000084">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>a disease caused by a deficiency of vitamin C, characterized by swollen bleeding gums and the opening of previously healed wounds,</rdfs:comment>
+        <rdfs:label xml:lang="en">scurvy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000089 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000089">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>prevents the process of normal cells are transformed into cancer cells.</rdfs:comment>
+        <rdfs:label xml:lang="en">prevents carcinogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000090 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000090">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">yellow and orange vegetables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000094 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000094">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>abnormal dryness of the conjunctiva and cornea of the eye, with inflammation and ridge formation, typically associated with vitamin A deficiency.</rdfs:comment>
+        <rdfs:label xml:lang="en">Xeropthalmia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000095 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000095">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Hemolytic anemia is a blood condition that occurs when your red blood cells are destroyed faster than they can be replaced.</rdfs:comment>
+        <rdfs:label xml:lang="en">hemolytic anemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000096 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000096">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>The leading causes of blindness and low vision</rdfs:comment>
+        <rdfs:label xml:lang="en">opthalmological disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000098 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000098">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">cereal grains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000099 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000099">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>Eating a proper diet that is rich in vitamins will prevent beriberi. Nursing mothers should make sure that their diet contains all vitamins. If your infant is not breastfed, make sure that the infant formula contains thiamine.</rdfs:comment>
+        <rdfs:label xml:lang="en">prevents beri beri disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000100 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000100">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Weight loss, in the context of medicine, health, or physical fitness, refers to a reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue).</rdfs:comment>
+        <rdfs:label xml:lang="en">weight loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000101 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000101">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Irritability is a feeling of agitation.</rdfs:comment>
+        <rdfs:label xml:lang="en">irritability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000102 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000102">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:label xml:lang="en">strengthens body cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000103 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000103">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">legumes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000104 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000104">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000036"/>
+        <rdfs:comment>For those who have hypertension, regular physical activity can bring blood pressure down to safer levels. Some examples of aerobic exercise that can help lower blood pressure</rdfs:comment>
+        <rdfs:label xml:lang="en">controls hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000105 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000105">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">sunflower seeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000106 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000106">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000059"/>
+        <rdfs:comment>Carcinogenesis, also called oncogenesis or tumorigenesis, is the formation of a cancer, whereby normal cells are transformed into cancer cells. The process is characterized by changes at the cellular, genetic, and epigenetic levels and abnormal cell division.</rdfs:comment>
+        <rdfs:label xml:lang="en">carcinogenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002530 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002530">
+        <rdfs:comment>Plant Vitamins are organic substances produced by plants. They often are called &quot;essential&quot; because they are not synthesized in the body and therefore must come from food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Plant Vitamins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002530"/>
+        <rdfs:comment>Fat-soluble vitamins get absorbed by fats and travel through the bloodstream</rdfs:comment>
+        <rdfs:label xml:lang="en">fat soluble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002533 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002533">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002530"/>
+        <rdfs:comment>water-soluble vitamins dissolve in water and get absorbed by tissues immediately.</rdfs:comment>
+        <rdfs:label xml:lang="en">water soluble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002533"/>
+        <rdfs:comment>The B-group vitamins are a collection of 8 water-soluble vitamins essential for various metabolic processes. Most of these vitamins can&apos;t be stored by the body and must be consumed regularly in the diet.</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002535 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002535">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000099"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Thiamin (vitamin B1) helps the body&apos;s cells change carbohydrates into energy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vitamin b1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002536 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002536">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A nutrient in the vitamin B complex that the body needs in small amounts to function and stay healthy. Vitamin B2 helps make red blood cells, helps some enzymes work properly, and keeps skin, nails, and hair healthy</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002537 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002537">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Niacin, or vitamin B3, is a water-soluble B vitamin found naturally in some foods, added to foods, and sold as a supplement</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002539 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002539">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Pantothenic acid (also known as vitamin B5) is an essential nutrient that is naturally present in some foods, added to others, and available as a dietary supplement.</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002540 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002540">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin B6, or pyridoxine, is a water-soluble vitamin found naturally in many foods, as well as added to foods and supplements.</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002541 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002541">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Though often referred to as vitamin B8, inositol is not a vitamin at all but rather a type of sugar with several important functions. Inositol plays a structural role in your body as a major component of cell membranes</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002542 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002542">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Folic acid is crucial for proper brain function and plays an important role in mental and emotional health. It aids in the production of DNA and RNA, the body&apos;s genetic material, and is especially important when cells and tissues are growing rapidly, such as in infancy, adolescence, and pregnancy.</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002543 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002543">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin B12 is a nutrient that helps keep your body&apos;s blood and nerve cells healthy and helps make DNA, the genetic material in all of your cells. Vitamin B12 also helps prevent megaloblastic anemia, a blood condition that makes people tired and weak.</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin b12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002544 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002544">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002533"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin C, also known as L-ascorbic acid, is a water-soluble vitamin that is naturally present in some foods, added to others, and available as a dietary supplement.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vitamin c</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002546 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002546">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin D is a fat soluble, that helps the body use calcium and phosphorus to make strong bones and teeth.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vitamin D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002547 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002547">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Vitamin E is a fat-soluble nutrient found in many foods. In the body, it acts as an antioxidant, helping to protect cells from the damage</rdfs:comment>
+        <rdfs:label xml:lang="en">Vitamin E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002548 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002548">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000088"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>any of a group of vitamins found mainly in green leaves and essential for the blood-clotting process</rdfs:comment>
+        <rdfs:label xml:lang="en">vitamin K</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562">
+        <rdfs:label xml:lang="en">Sources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002563 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002563">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">green leafy vegetables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002564 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002564">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikkigoud/ontologies/2023/3/untitled-ontology-8#NA1314_00002562"/>
+        <rdfs:label xml:lang="en">fruits</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
